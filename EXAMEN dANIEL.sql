@@ -63,4 +63,13 @@ EXCEPTION
         ROLLBACK;
         
 END;
+
+
+---Desarrollar un procedimiento almacenado para guardar denuncias de videos P_DENUNCIAR_VIDEO, el
+---procedimiento debe recibir el video que se denunciará y toda la información relacionada. Se debe verificar si el
+---video existe y gestionarlo con excepciones personalizadas, enviar un parametro de salida con el estatus de la
+---ejecución del procedimiento.
+---Verificar si la cantidad de denuncias del video exceden las 5 denuncias, en caso de ser así se deberá cambiar el
+---sido denunciado y bloqueado.
+---estado del video a bloqueado, además se deberá enviar una notificación al dueño del video de que su video ha
     
